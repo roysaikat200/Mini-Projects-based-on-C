@@ -1,7 +1,7 @@
 # Mini-Projects-based-on-C
 There are 7 mini projects based on C programming language. 
 
-# Simple Calculator in C:
+# 1. Simple Calculator in C:
 Introduction
 
 Introduction This is a simple calculator program written in C that performs basic arithmetic operations. The program provides a menu-driven interface to the user for selecting operations such as addition, subtraction, multiplication, division, modulus, and power.
@@ -28,7 +28,7 @@ simple_calculator.exe
 4. The result of the operation will be displayed.
 
 
-# Guess the Number Game:
+# 2. Guess the Number Game:
 _Introduction_
 
 This is a simple number guessing game written in C. The program generates a random number between 1 and 100, and the user is prompted to guess the number. After each guess, the program provides feedback on whether the guessed number is too high, too low, or correct. The game continues until the user guesses the correct number.
@@ -47,7 +47,7 @@ guess_the_number.exe
 ```
 
 
-# Digital Clock:
+# 3. Digital Clock:
 _Introduction_
 
 This is a digital clock program written in C that displays the current time and date. The clock can operate in either 24-hour or 12-hour format, updating every second. It leverages various C standard libraries to achieve its functionality.
@@ -82,6 +82,70 @@ _Features :_
 This digital clock program is a practical example of using C standard libraries for time manipulation and user interaction. It demonstrates the use of conditional compilation for cross-platform compatibility and provides a foundation for further enhancements.
 
 
+# 4. Progress Bar:
+_Introduction_
+
+This program demonstrates a simple progress bar implementation in C. It simulates the progress of multiple tasks, updating the progress bars for each task every second until all tasks are complete.
+
+## Deployment
+
+Compile the Program:
+```bash
+gcc -o progress_bar progress_bar.c
+```
+
+Run the Program:
+```bash
+progress_bar.exe
+```
+
+
+##
+_Features :_
+
+- Multiple Tasks: Simulates multiple tasks, each with its own progress bar.
+- Random Step Increments: Each task progresses at a different rate, with random increments.
+- Dynamic Display: Continuously updates the display to show the current progress of each task.
+- Clear Screen: Clears the terminal screen before each update to provide a seamless progress bar display.
+- Cross-Platform Compatibility: Uses conditional compilation to ensure compatibility with both Windows and Unix-like systems.
+## 
+_Future Scope:_
+
+- Customization Options: Add options for customizing the date and time format.
+- Alarm Feature: Implement an alarm feature that allows users to set alarms.
+- GUI Version: Develop a graphical user interface (GUI) version of the clock using libraries like GTK or Qt.
+- Timezone Support: Allow users to display the time for different time zones.
+
+##
+This progress bar program is a practical example of using C standard libraries for simulating task progress and dynamically updating the display. It demonstrates the use of conditional compilation for cross-platform compatibility and serves as a foundation for further enhancements.
+
+
+# 5. User Management System:
+_Introduction_
+
+This project is a simple user management system written in C. It allows users to register, log in, and delete accounts. The system uses standard input/output functions and handles various aspects of user authentication.
+## 
+_Deployment_
+```bash
+gcc -o user_manager 5_user_manager_final.c
+./user_manager   # For Unix/Linux
+user_manager.exe # For Windows
+```
+
+##
+_Features :_
+
+- User Registration: Users can create an account by providing a username and password.
+- User Login: Users can log in with their registered credentials.
+- Account Deletion: Users can delete their accounts by providing their credentials.
+- Input Handling: Properly handles and sanitizes user input to ensure robust functionality.
+- Password Masking: Implements password masking during input for enhanced security.
+- Input validation is performed to ensure the entered values are correct.
+- Proper feedback is provided to the user in case of incorrect inputs or operations.
+
+##
+
 ## Contributing
 If you have suggestions for improvements or find any bugs, please feel free to open an issue or submit a pull request.
+
 
