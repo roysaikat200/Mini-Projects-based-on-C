@@ -46,6 +46,42 @@ Run the Program:
 guess_the_number.exe
 ```
 
+
+# Digital Clock:
+_Introduction_
+
+This is a digital clock program written in C that displays the current time and date. The clock can operate in either 24-hour or 12-hour format, updating every second. It leverages various C standard libraries to achieve its functionality.
+
+## Deployment
+
+Compile the Program:
+```bash
+gcc -o digital_clock digital_clock.c
+```
+
+Run the Program:
+```bash
+digital_clock.exe
+```
+
+
+##
+_Features :_
+
+- Real-Time Clock: Continuously displays the current time and date, updating every second.
+- Time Format Options: Allows the user to choose between 24-hour and 12-hour time formats.
+- Clear Screen: Clears the terminal screen before updating the time, providing a seamless clock display.
+- Cross-Platform Compatibility: Uses conditional compilation to ensure compatibility with both Windows and Unix-like systems.
+## Future Scope
+
+- Customization Options: Add options for customizing the date and time format.
+- Alarm Feature: Implement an alarm feature that allows users to set alarms.
+- GUI Version: Develop a graphical user interface (GUI) version of the clock using libraries like GTK or Qt.
+- Timezone Support: Allow users to display the time for different time zones.
+##
+This digital clock program is a practical example of using C standard libraries for time manipulation and user interaction. It demonstrates the use of conditional compilation for cross-platform compatibility and provides a foundation for further enhancements.
+
+
 ## Contributing
 If you have suggestions for improvements or find any bugs, please feel free to open an issue or submit a pull request.
 
