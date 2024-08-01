@@ -6,7 +6,6 @@ Introduction
 
 Introduction This is a simple calculator program written in C that performs basic arithmetic operations. The program provides a menu-driven interface to the user for selecting operations such as addition, subtraction, multiplication, division, modulus, and power.
 
-
 ## Deployment
 
 Compile the Program:
@@ -18,10 +17,7 @@ Run the Program:
 ```bash
 simple_calculator.exe
 ```
-
-
 ##
-
 1. The program will display a menu with options for various operations. 
 2. Enter the corresponding number for the desired operation. 
 3. Input the numbers as prompted. 
@@ -33,27 +29,21 @@ _Introduction_
 
 This is a simple number guessing game written in C. The program generates a random number between 1 and 100, and the user is prompted to guess the number. After each guess, the program provides feedback on whether the guessed number is too high, too low, or correct. The game continues until the user guesses the correct number.
 
-
 ## Deployment
-
 Compile the Program:
 ```bash
 gcc -o guess_the_number guess_the_number.c
 ```
-
 Run the Program:
 ```bash
 guess_the_number.exe
 ```
-
-
 # 3. Digital Clock:
 _Introduction_
 
 This is a digital clock program written in C that displays the current time and date. The clock can operate in either 24-hour or 12-hour format, updating every second. It leverages various C standard libraries to achieve its functionality.
 
 ## Deployment
-
 Compile the Program:
 ```bash
 gcc -o digital_clock digital_clock.c
@@ -63,8 +53,6 @@ Run the Program:
 ```bash
 digital_clock.exe
 ```
-
-
 ##
 _Features :_
 
@@ -87,7 +75,7 @@ _Introduction_
 
 This program demonstrates a simple progress bar implementation in C. It simulates the progress of multiple tasks, updating the progress bars for each task every second until all tasks are complete.
 
-## Deployment
+### Deployment
 
 Compile the Program:
 ```bash
@@ -100,8 +88,8 @@ progress_bar.exe
 ```
 
 
-##
-_Features :_
+
+#### Features
 
 - Multiple Tasks: Simulates multiple tasks, each with its own progress bar.
 - Random Step Increments: Each task progresses at a different rate, with random increments.
@@ -109,7 +97,7 @@ _Features :_
 - Clear Screen: Clears the terminal screen before each update to provide a seamless progress bar display.
 - Cross-Platform Compatibility: Uses conditional compilation to ensure compatibility with both Windows and Unix-like systems.
 ## 
-_Future Scope:_
+#### Future Scope
 
 - Customization Options: Add options for customizing the date and time format.
 - Alarm Feature: Implement an alarm feature that allows users to set alarms.
@@ -124,16 +112,15 @@ This progress bar program is a practical example of using C standard libraries f
 _Introduction_
 
 This project is a simple user management system written in C. It allows users to register, log in, and delete accounts. The system uses standard input/output functions and handles various aspects of user authentication.
-## 
-_Deployment_
+
+####Deployment
 ```bash
 gcc -o user_manager 5_user_manager_final.c
 ./user_manager   # For Unix/Linux
 user_manager.exe # For Windows
 ```
 
-##
-_Features :_
+#### Features:
 
 - User Registration: Users can create an account by providing a username and password.
 - User Login: Users can log in with their registered credentials.
@@ -143,15 +130,11 @@ _Features :_
 - Input validation is performed to ensure the entered values are correct.
 - Proper feedback is provided to the user in case of incorrect inputs or operations.
 
-##
-
 
 # 6. Tic-Tac-Toe Game
 _Introduction_
 
 This is a simple command-line based Tic-Tac-Toe game written in C. The game allows a player to compete against the computer with two difficulty levels: Human mode and God mode (impossible to win).
-
-
 
 ### Features
 - Two difficulty levels:
@@ -162,7 +145,6 @@ This is a simple command-line based Tic-Tac-Toe game written in C. The game allo
 - Keeps track of scores between the player and the computer.
 - Displays the game board after each move.
 - Asks if the player wants to play again after each game.
-
 
 ### Deployment
 
@@ -197,7 +179,44 @@ Run the code:
 - Re-prompts for input if invalid moves are made.
 
 
-##
+# 7. Quiz Game
+_Introduction_
+
+This is a simple command-line based quiz game written in C. The game presents a series of multiple-choice questions to the player and keeps track of the score.
+
+
+### Features
+- Multiple-choice questions.
+- Tracks player's score.
+- Displays correct answers and total score at the end.
+
+### Deployment
+
+Compile the code: 
+```bash
+gcc -o quiz_game 7_test.c
+```
+
+Run the code: 
+```bash
+7_test.exe
+```
+### How to Play
+
+1. The game will start by presenting a multiple-choice question.
+2. Enter the letter corresponding to your answer (e.g., A, B, C, D).
+3. The game will inform you if your answer is correct and proceed  to the next question.
+4. After all questions are answered, the game will display your total score.
+
+
+
+#### Error Handling: 
+
+- Ensures valid input for answer selection.
+- Validates that the questions file is loaded correctly.
+- Re-prompts for input if invalid answers are provided.
+
+
 
 ## Contributing
 If you have suggestions for improvements or find any bugs, please feel free to open an issue or submit a pull request.
