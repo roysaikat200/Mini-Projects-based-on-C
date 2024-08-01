@@ -145,6 +145,60 @@ _Features :_
 
 ##
 
+
+# 6. Tic-Tac-Toe Game
+_Introduction_
+
+This is a simple command-line based Tic-Tac-Toe game written in C. The game allows a player to compete against the computer with two difficulty levels: Human mode and God mode (impossible to win).
+
+
+
+### Features
+- Two difficulty levels:
+
+    Human mode: The computer makes random moves.
+
+    God mode: The computer plays optimally, making it impossible to win. (You can either draw or loose).
+- Keeps track of scores between the player and the computer.
+- Displays the game board after each move.
+- Asks if the player wants to play again after each game.
+
+
+### Deployment
+
+Compile the code: 
+```bash
+gcc -o tic_tac_toe 6_tic_tac_toe.c
+```
+
+Run the code: 
+```bash
+6_tic_tac_toe.exe
+```
+### How to Play
+
+1. Select the difficulty level:
+- Enter 1 for Human mode.
+- Enter 2 for God mode.
+
+2. The game randomly selects which player goes first.
+
+3. Enter the row and column numbers to make your move. The rows and columns are indexed from 0 to 2.
+
+4. The game alternates between the player and the computer until someone wins or the game is a draw.
+
+5. After the game ends, you can choose to play again or exit.
+
+
+
+#### Error Handling: 
+- Ensures valid input for difficulty selection.
+- Validates player moves to ensure they are within bounds and the chosen cell is empty.
+- Re-prompts for input if invalid moves are made.
+
+
+##
+
 ## Contributing
 If you have suggestions for improvements or find any bugs, please feel free to open an issue or submit a pull request.
 
